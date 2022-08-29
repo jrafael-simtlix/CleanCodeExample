@@ -1,0 +1,45 @@
+{
+  "name": "cleancodeexample",
+  "version": "1.0.0",
+  "description": "A example uses code clean practices  ",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc --declaration",
+    "lint": "tslint --project tsconfig.json",
+    "prepublish": "npm run compile",
+    "test": "mocha"
+  },
+  "directories": {
+    "lib": "./build",
+    "src": "./src",
+    "test": "./src"
+  },
+  "devDependencies": {
+    "@types/mocha": "latest",
+    "assert": "^2.0.0",
+    "mocha": "latest",
+    "ts-node": "^9.1.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrafael-simtlix/CleanCodeExample.git"
+  },
+  "keywords": [
+    "code",
+    "clean",
+    "github",
+    "action",
+    "coverage"
+  ],
+  "author": "Jorge Rafael",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrafael-simtlix/CleanCodeExample/issues"
+  },
+  "homepage": "https://github.com/jrafael-simtlix/CleanCodeExample#readme"
+}
